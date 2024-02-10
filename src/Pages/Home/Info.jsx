@@ -7,9 +7,17 @@ import phone from "../../assets/icons/phone.svg";
 function Info() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-      <InfoCard cardTitle="Openig Hours" bgClass="bg-gradient-to-r from-secondary to-primary" img={clock} />
-      <InfoCard cardTitle="Our Location" bgClass="bg-accent" img={marker} />
-      <InfoCard cardTitle="Contact Us" bgClass="bg-gradient-to-r from-secondary to-primary" img={phone} />
+      <InfoCard
+        cardTitle="Openig Hours"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
+        img={clock}
+      />
+      <InfoCard cardTitle="Our Location" bgClass="bg-neutral" img={marker} />
+      <InfoCard
+        cardTitle="Contact Us"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
+        img={phone}
+      />
     </div>
   );
 }
